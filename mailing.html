@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScNiZSBz7xHUmR4MNJN-hVo4uHHPWjI5LweN2Eu4-OGosM-Nw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  Name<br>
+  <input type="text" name="entry.2005620554" id="entry.2005620554"><br>
+  Email<br>
+  <input type="text" name="entry.1045781291" id="entry.1045781291"><br>
+  Phone Number<br>
+  <input type="text" name="entry.2022033891" id="entry.2022033891"><br>
+  Comments<br>
+  <input type="text" name="entry.839337160" id="entry.839337160"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+
+</html>
