@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+OUTPUT_PATH = 'docs/'
+
 TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = 'en'
