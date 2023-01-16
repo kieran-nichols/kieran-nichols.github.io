@@ -61,9 +61,9 @@ docs/_build/
 target/
 
 # pelican-plugins
-themes
+#themes
 .venv/
-output
+#output
 *.pid
 
 .vscode/
