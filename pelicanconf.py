@@ -38,11 +38,11 @@ SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/kieran-nichols-24134479/")
 )
 
-MENUITEMS = (
-  ('Resume','resume'),
-  ('Portfolio','portfolio'),
-  ('About Me','about-me'),
-)
+#MENUITEMS = (
+  #('Resume','resume'),
+  #('Portfolio','portfolio'),
+  #('About Me','about-me'),
+#)
 
 #DEFAULT_PAGINATION = 10
 

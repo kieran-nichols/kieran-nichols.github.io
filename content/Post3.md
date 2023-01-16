@@ -1,6 +1,6 @@
 title: Third post
 Date: 2023-01-16 15:00
-category: Posts
+category: Tutorials
 Slug: tadaros
 
 You can find more details to this post in this [tutorial](https://github.com/kieran-nichols/catkin_ws_remote).

@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kieran Nichols - Posts</title><link href="https://kieran-nichols.github.io/" rel="alternate"></link><link href="https://kieran-nichols.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://kieran-nichols.github.io/</id><updated>2023-01-16T15:00:00-06:00</updated><entry><title>Third post</title><link href="https://kieran-nichols.github.io/tadaros.html" rel="alternate"></link><published>2023-01-16T15:00:00-06:00</published><updated>2023-01-16T15:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/tadaros.html</id><summary type="html">&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;How to set up Remote bridge:&lt;/h2&gt;
-&lt;p&gt;Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
-https://github.com/Brabalawuka/RosOnWindows&lt;/p&gt;
-&lt;h3&gt;Key instructions for remote windows:&lt;/h3&gt;
-&lt;p&gt;1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;How to set up Remote bridge:&lt;/h2&gt;
-&lt;p&gt;Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
-https://github.com/Brabalawuka/RosOnWindows&lt;/p&gt;
-&lt;h3&gt;Key instructions for remote windows:&lt;/h3&gt;
-&lt;p&gt;1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to start roscore but you can if you want to run rostopic or rqt_plot
-2. Create a .txt including following content: (Use your raspi ip address). Save as C:\bashrc.cmd at disk C (or another non-catkin_ws location).&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@echo off 
-set ROS_MASTER_URI=http://192.168.1.19:11311
-set ROS_IP=192.168.1.249
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;3. (Optional) Following step 2, open regedit: -&amp;gt; Win+R and enter regedit. Find [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor] and add a string key named Autorun, value is C:\bashrc.cmd"&lt;/p&gt;
-&lt;p&gt;4. Run the cmd file in the Developer Command Prompt in VS22 "C:\bashrc.cmd". There were some issues with it autorunning in step 3&lt;/p&gt;
-&lt;p&gt;5. Use rosrun to execute the individual programs on remote machine.&lt;/p&gt;
-&lt;h3&gt;Key instructions for raspi:&lt;/h3&gt;
-&lt;p&gt;1. On the raspi device open the .bashrc file, then add the lines:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;export ROS_MASTER_URI=http://192.168.1.19:11311
-export ROS_IP=192.168.1.19
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;2. Start roscore&lt;/p&gt;</content></entry><entry><title>Second post</title><link href="https://kieran-nichols.github.io/post.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/post.html</id><summary type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kieran Nichols - Posts</title><link href="https://kieran-nichols.github.io/" rel="alternate"></link><link href="https://kieran-nichols.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://kieran-nichols.github.io/</id><updated>2023-01-16T14:00:00-06:00</updated><entry><title>Second post</title><link href="https://kieran-nichols.github.io/post.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/post.html</id><summary type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
 The software can be summariezed as follows:&lt;/p&gt;
 &lt;h3&gt;Architecture Summary&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_tadaros"&gt;Raspberry pi&lt;/a&gt;&lt;/h4&gt;
