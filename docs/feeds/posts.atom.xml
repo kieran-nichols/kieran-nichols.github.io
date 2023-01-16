@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kieran Nichols - Posts</title><link href="/" rel="alternate"></link><link href="/feeds/posts.atom.xml" rel="self"></link><id>/</id><updated>2023-01-16T15:00:00-06:00</updated><entry><title>Third post</title><link href="/tadaros.html" rel="alternate"></link><published>2023-01-16T15:00:00-06:00</published><updated>2023-01-16T15:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:None,2023-01-16:/tadaros.html</id><summary type="html">&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kieran Nichols - Posts</title><link href="https://kieran-nichols.github.io/" rel="alternate"></link><link href="https://kieran-nichols.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://kieran-nichols.github.io/</id><updated>2023-01-16T15:00:00-06:00</updated><entry><title>Third post</title><link href="https://kieran-nichols.github.io/tadaros.html" rel="alternate"></link><published>2023-01-16T15:00:00-06:00</published><updated>2023-01-16T15:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/tadaros.html</id><summary type="html">&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;How to set up Remote bridge:&lt;/h2&gt;
 &lt;p&gt;Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
 https://github.com/Brabalawuka/RosOnWindows&lt;/p&gt;
@@ -27,7 +27,7 @@ export ROS_IP=192.168.1.19
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;2. Start roscore&lt;/p&gt;</content></entry><entry><title>Second post</title><link href="/post.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:None,2023-01-16:/post.html</id><summary type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
+&lt;p&gt;2. Start roscore&lt;/p&gt;</content></entry><entry><title>Second post</title><link href="https://kieran-nichols.github.io/post.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/post.html</id><summary type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
 The software can be summariezed as follows:&lt;/p&gt;
 &lt;h3&gt;Architecture Summary&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_tadaros"&gt;Raspberry pi&lt;/a&gt;&lt;/h4&gt;
@@ -59,11 +59,11 @@ The software can be summariezed as follows:&lt;/p&gt;
 &lt;li&gt;Xsens&lt;/li&gt;
 &lt;li&gt;GUI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</content></entry><entry><title>First post</title><link href="/aboutme.html" rel="alternate"></link><published>2023-01-16T12:00:00-06:00</published><updated>2023-01-16T12:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:None,2023-01-16:/aboutme.html</id><summary type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</content></entry><entry><title>First post</title><link href="https://kieran-nichols.github.io/aboutme.html" rel="alternate"></link><published>2023-01-16T12:00:00-06:00</published><updated>2023-01-16T12:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/aboutme.html</id><summary type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="https://kieran-nichols.github.io/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
 &lt;p&gt;Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
 My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
 and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 
-Wisconsin-Madison, with a graduate date of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
+Wisconsin-Madison, with a graduate date of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="https://kieran-nichols.github.io/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
 &lt;p&gt;Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
 My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
 and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 

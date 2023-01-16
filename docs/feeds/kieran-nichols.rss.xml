@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Kieran Nichols - kieran-nichols</title><link>/</link><description></description><lastBuildDate>Mon, 16 Jan 2023 15:00:00 -0600</lastBuildDate><item><title>Third post</title><link>/tadaros.html</link><description>&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+<rss version="2.0"><channel><title>Kieran Nichols - kieran-nichols</title><link>https://kieran-nichols.github.io/</link><description></description><lastBuildDate>Mon, 16 Jan 2023 15:00:00 -0600</lastBuildDate><item><title>Third post</title><link>https://kieran-nichols.github.io/tadaros.html</link><description>&lt;p&gt;You can find more details to this post in this &lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;How to set up Remote bridge:&lt;/h2&gt;
 &lt;p&gt;Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
 https://github.com/Brabalawuka/RosOnWindows&lt;/p&gt;
 &lt;h3&gt;Key instructions for remote windows:&lt;/h3&gt;
-&lt;p&gt;1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 15:00:00 -0600</pubDate><guid isPermaLink="false">tag:None,2023-01-16:/tadaros.html</guid></item><item><title>Second post</title><link>/post.html</link><description>&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
+&lt;p&gt;1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 15:00:00 -0600</pubDate><guid isPermaLink="false">tag:kieran-nichols.github.io,2023-01-16:/tadaros.html</guid></item><item><title>Second post</title><link>https://kieran-nichols.github.io/post.html</link><description>&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
 The software can be summariezed as follows:&lt;/p&gt;
 &lt;h3&gt;Architecture Summary&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_tadaros"&gt;Raspberry pi&lt;/a&gt;&lt;/h4&gt;
@@ -20,8 +20,8 @@ The software can be summariezed as follows:&lt;/p&gt;
 &lt;li&gt;Xsens&lt;/li&gt;
 &lt;li&gt;GUI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 14:00:00 -0600</pubDate><guid isPermaLink="false">tag:None,2023-01-16:/post.html</guid></item><item><title>First post</title><link>/aboutme.html</link><description>&lt;p&gt;&lt;img alt="Kieran Nichols" src="/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 14:00:00 -0600</pubDate><guid isPermaLink="false">tag:kieran-nichols.github.io,2023-01-16:/post.html</guid></item><item><title>First post</title><link>https://kieran-nichols.github.io/aboutme.html</link><description>&lt;p&gt;&lt;img alt="Kieran Nichols" src="https://kieran-nichols.github.io/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
 &lt;p&gt;Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
 My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
 and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 
-Wisconsin-Madison, with a graduate date of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 12:00:00 -0600</pubDate><guid isPermaLink="false">tag:None,2023-01-16:/aboutme.html</guid></item></channel></rss>
+Wisconsin-Madison, with a graduate date of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">kieran-nichols</dc:creator><pubDate>Mon, 16 Jan 2023 12:00:00 -0600</pubDate><guid isPermaLink="false">tag:kieran-nichols.github.io,2023-01-16:/aboutme.html</guid></item></channel></rss>
