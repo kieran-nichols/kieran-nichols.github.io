@@ -1,5 +1,7 @@
-title: About Me
+title: First post
 Date: 2023-01-16 12:00
+category: Posts
+Slug: aboutme
 
 ![Kieran Nichols][headshot_photo]
 

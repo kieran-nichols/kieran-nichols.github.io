@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width">
-  <title>personal-website</title>
+  <title>Kieran Nichols</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link rel="stylesheet" href="/theme/css/main.3dad1b7a.css">
@@ -17,7 +17,7 @@
       <nav class="navbar">
         <div class="navbar-brand">
           <a class="navbar-item title is-3 is-active"
-             href="/">personal-website</a>
+             href="/">Kieran Nichols</a>
         </div>
       </nav>
     </div>
@@ -34,6 +34,11 @@
     </span>
     <div id="navMenu" class="navbar-menu">
         <div class="navbar-end">
+            <a class="navbar-item is-tab" href="about-me">About Me</a>
+            <a class="navbar-item is-tab" href="portfolio">Portfolio</a>
+            <a class="navbar-item is-tab" href="resume">Resume</a>
+              <a class="navbar-item is-tab "
+                 href="/category/posts.html">Posts</a>
         </div>
     </div>
   </div>
@@ -42,6 +47,88 @@
 <div class="container">
   <div class="section columns">
     <div class="column is-three-quarters-desktop is-two-thirds-tablet">
+      <aside id="featured" class="body">
+        <article>
+          <h1 class="title">
+            <a href="/tadaros.html">Third post</a>
+          </h1>
+<footer class="post-info">
+  <abbr class="published" title="2023-01-16T15:00:00-06:00">
+    Published <span class="is-info">Mon 16 January 2023</span>
+    in <a href="/category/posts.html">Posts</a>
+  </abbr>
+
+    <p class="author">
+      <em>by           <a class="url fn" href="/author/kieran-nichols.html">kieran-nichols</a>
+</em>
+    </p>
+  
+</footer>          <div class="section">
+              <p>You can find more details to this post in this <a href="https://github.com/kieran-nichols/catkin_ws_remote">tutorial</a>.</p>
+<h2>How to set up Remote bridge:</h2>
+<p>Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
+https://github.com/Brabalawuka/RosOnWindows</p>
+<h3>Key instructions for remote windows:</h3>
+<p>1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to start roscore but you can if you want to run rostopic or rqt_plot
+2. Create a .txt including following content: (Use your raspi ip address). Save as C:\bashrc.cmd at disk C (or another non-catkin_ws location).</p>
+<div class="highlight"><pre><span></span>@echo off 
+set ROS_MASTER_URI=http://192.168.1.19:11311
+set ROS_IP=192.168.1.249
+</pre></div>
+
+
+<p>3. (Optional) Following step 2, open regedit: -&gt; Win+R and enter regedit. Find [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor] and add a string key named Autorun, value is C:\bashrc.cmd"</p>
+<p>4. Run the cmd file in the Developer Command Prompt in VS22 "C:\bashrc.cmd". There were some issues with it autorunning in step 3</p>
+<p>5. Use rosrun to execute the individual programs on remote machine.</p>
+<h3>Key instructions for raspi:</h3>
+<p>1. On the raspi device open the .bashrc file, then add the lines:</p>
+<div class="highlight"><pre><span></span>export ROS_MASTER_URI=http://192.168.1.19:11311
+export ROS_IP=192.168.1.19
+</pre></div>
+
+
+<p>2. Start roscore</p>
+          </div>
+        </article>
+      </aside>
+  <div class="is-hidden-print">
+    <h2 class="subtitle">Other articles</h2>
+    <div class="columns is-multiline">
+        <div class="column is-half-tablet is-one-third-desktop">
+          <div class="card is-fullwidth is-fullheight">
+            <div class="card-content">
+              <a href="/post.html">
+                <h3 class="title is-5">Second post</h3>
+                <div class="heading subtitle">Mon 16 January 2023</div>
+                <div><p>My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA). The...<br /></p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop">
+          <div class="card is-fullwidth is-fullheight">
+            <div class="card-content">
+              <a href="/aboutme.html">
+                <h3 class="title is-5">First post</h3>
+                <div class="heading subtitle">Mon 16 January 2023</div>
+                <div><p>Engineer with eight years of experience in embedded systems, robotics, and biomechanics. My research involves...<br /></p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+<nav class="pagination is-centered">
+    <a class="pagination-previous" href="#" disabled>
+      Previous
+    </a>
+    <a class="pagination-next" href="#" disabled>
+      Next page
+    </a>
+  <ul class="pagination-list">
+    <li>Page 1 / 1</li>
+  </ul>
+</nav>
+<br>  </div>
     </div>
 
     <div class="column is-one-quarter-desktop is-one-third-tablet is-hidden-print">
@@ -82,6 +169,11 @@
       <span class="link-text">LinkedIn</span>
     </a></li>
 
+    <li><a href="/feeds/all.atom.xml"
+           type="application/atom+xml" rel="alternate">
+      <span class="icon is-small"><i class="fa fa-rss"></i></span>
+      <span class="link-text">Atom Feed</span>
+    </a></li>
 
 </ul>      </aside>
     </div>

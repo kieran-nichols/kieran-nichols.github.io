@@ -3,21 +3,11 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width">
-  <title>About Me</title>
+  <title>Kieran Nichols - Posts</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link rel="stylesheet" href="/theme/css/main.3dad1b7a.css">
   <style media="print">.is-hidden-print{display:none !important}</style>
-<meta property="og:title" content="Kieran Nichols - About Me">
-  <meta property="og:description" content="Engineer with eight years of experience in embedded systems, robotics, and biomechanics. My research involves the mechanical design, the development of embedded software and motor/sensor...">
-<meta property="og:url" content="/pages/about-me.html">
-    <meta property="og:image" content="/images/KieranNicholsColor-300x300.png">
-    <meta name="twitter:image:alt" content="Kieran Nichols">
-<meta name="twitter:card" content="summary">
-<meta property="og:site_name" content="Kieran Nichols">
-<meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-01-16T12:00:00-06:00">
-  <meta property="article:section" content="pages">
 </head>
 
 <body id="index" class="home">
@@ -47,7 +37,7 @@
             <a class="navbar-item is-tab" href="about-me">About Me</a>
             <a class="navbar-item is-tab" href="portfolio">Portfolio</a>
             <a class="navbar-item is-tab" href="resume">Resume</a>
-              <a class="navbar-item is-tab "
+              <a class="navbar-item is-tab is-active"
                  href="/category/posts.html">Posts</a>
         </div>
     </div>
@@ -57,25 +47,95 @@
 <div class="container">
   <div class="section columns">
     <div class="column is-three-quarters-desktop is-two-thirds-tablet">
-  <section id="content" class="body">
-    <article>
-      <h1 class="title"><a href="/pages/about-me.html" rel="bookmark"
-         title="Permalink to About Me">About Me</a></h1>
-      
-      <div class="section"><p><img alt="Kieran Nichols" src="/images/KieranNicholsColor-300x300.png"></p>
-<p>Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
-My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
-and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 
-Wisconsin-Madison, with a graduate date of August 2023.</p></div>
-    </article>
-  </section>
+      <aside id="featured" class="body">
+        <article>
+          <h1 class="title">
+            <a href="/tadaros.html">Third post</a>
+          </h1>
+<footer class="post-info">
+  <abbr class="published" title="2023-01-16T15:00:00-06:00">
+    Published <span class="is-info">Mon 16 January 2023</span>
+    in <a href="/category/posts.html">Posts</a>
+  </abbr>
+
+    <p class="author">
+      <em>by           <a class="url fn" href="/author/kieran-nichols.html">kieran-nichols</a>
+</em>
+    </p>
+  
+</footer>          <div class="section">
+              <p>You can find more details to this post in this <a href="https://github.com/kieran-nichols/catkin_ws_remote">tutorial</a>.</p>
+<h2>How to set up Remote bridge:</h2>
+<p>Helpful links: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/ 
+https://github.com/Brabalawuka/RosOnWindows</p>
+<h3>Key instructions for remote windows:</h3>
+<p>1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to start roscore but you can if you want to run rostopic or rqt_plot
+2. Create a .txt including following content: (Use your raspi ip address). Save as C:\bashrc.cmd at disk C (or another non-catkin_ws location).</p>
+<div class="highlight"><pre><span></span>@echo off 
+set ROS_MASTER_URI=http://192.168.1.19:11311
+set ROS_IP=192.168.1.249
+</pre></div>
+
+
+<p>3. (Optional) Following step 2, open regedit: -&gt; Win+R and enter regedit. Find [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor] and add a string key named Autorun, value is C:\bashrc.cmd"</p>
+<p>4. Run the cmd file in the Developer Command Prompt in VS22 "C:\bashrc.cmd". There were some issues with it autorunning in step 3</p>
+<p>5. Use rosrun to execute the individual programs on remote machine.</p>
+<h3>Key instructions for raspi:</h3>
+<p>1. On the raspi device open the .bashrc file, then add the lines:</p>
+<div class="highlight"><pre><span></span>export ROS_MASTER_URI=http://192.168.1.19:11311
+export ROS_IP=192.168.1.19
+</pre></div>
+
+
+<p>2. Start roscore</p>
+          </div>
+        </article>
+      </aside>
+  <div class="is-hidden-print">
+    <h2 class="subtitle">Other articles</h2>
+    <div class="columns is-multiline">
+        <div class="column is-half-tablet is-one-third-desktop">
+          <div class="card is-fullwidth is-fullheight">
+            <div class="card-content">
+              <a href="/post.html">
+                <h3 class="title is-5">Second post</h3>
+                <div class="heading subtitle">Mon 16 January 2023</div>
+                <div><p>My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA). The...<br /></p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop">
+          <div class="card is-fullwidth is-fullheight">
+            <div class="card-content">
+              <a href="/aboutme.html">
+                <h3 class="title is-5">First post</h3>
+                <div class="heading subtitle">Mon 16 January 2023</div>
+                <div><p>Engineer with eight years of experience in embedded systems, robotics, and biomechanics. My research involves...<br /></p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+<nav class="pagination is-centered">
+    <a class="pagination-previous" href="#" disabled>
+      Previous
+    </a>
+    <a class="pagination-next" href="#" disabled>
+      Next page
+    </a>
+  <ul class="pagination-list">
+    <li>Page 1 / 1</li>
+  </ul>
+</nav>
+<br>  </div>
     </div>
 
     <div class="column is-one-quarter-desktop is-one-third-tablet is-hidden-print">
       <aside class="menu">
           <p class="menu-label">Other Pages</p>
           <ul class="menu-list">
-                <li><a class="is-active"                       href="/pages/about-me.html">
+                <li><a                        href="/pages/about-me.html">
                   <span class="icon is-small"><i class="fa fa-book"></i></span>
                   <span class="link-text">About Me</span>
                 </a></li>
