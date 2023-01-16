@@ -60,7 +60,7 @@ docs/_build/
 # PyBuilder
 target/
 
-pelican-plugins
+# pelican-plugins
 themes
 .venv/
 output
