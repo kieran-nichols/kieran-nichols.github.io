@@ -1,5 +1,4 @@
 title: About Me
-Date: 2023-01-16 12:00
 
 ![Kieran Nichols][headshot_photo]
 
