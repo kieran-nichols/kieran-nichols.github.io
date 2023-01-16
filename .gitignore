@@ -63,7 +63,7 @@ target/
 # pelican-plugins
 # themes
 .venv/
-#output
+# output
 *.pid
 
 .vscode/
