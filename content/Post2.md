@@ -1,7 +1,6 @@
-title: Second post
+title: TADA Software Architecture
 Date: 2023-01-16 14:00
 category: Posts
-Slug: post
 
 My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
 The software can be summariezed as follows:
