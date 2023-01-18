@@ -1,13 +1,14 @@
 title: Portfolio
 
 ## Biomechatronics, Assistive Devices, Gait Engineering, and Rehabilitation (BADGER Lab)
+*More details to come*
 ### Two Axis Adaptable Ankle (TADA)
 * Pictures and videos
 * Graph display
 * User interface
 * ROS node graph with pictures and links
 * CPU data display
-* Other
+* Sample graphs for data analyses
 ### Variable Stiffness Foot (VSF)
 * Pictures
 * Data flow graph
@@ -20,7 +21,7 @@ title: Portfolio
 ## Class projects
 * Optimization
 * Computational Dynamics
-* Parallel Computing?
+* Parallel/GPU Computing
 * Intro to Robotics
 ## Personal projects
 * Dance project

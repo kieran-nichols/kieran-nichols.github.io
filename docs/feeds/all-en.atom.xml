@@ -11,23 +11,21 @@ https://github.com/Brabalawuka/RosOnWindows&lt;/p&gt;
 &lt;h3&gt;Key instructions for remote windows:&lt;/h3&gt;
 &lt;p&gt;1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to start roscore but you can if you want to run rostopic or rqt_plot
 2. Create a .txt including following content: (Use your raspi ip address). Save as C:\bashrc.cmd at disk C (or another non-catkin_ws location).&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@echo off 
-set ROS_MASTER_URI=http://192.168.1.19:11311
-set ROS_IP=192.168.1.249
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;@echo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;off&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="k"&gt;set&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ROS_MASTER_URI&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="mf"&gt;192.168.1.19&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;11311&lt;/span&gt;
+&lt;span class="k"&gt;set&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ROS_IP&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;192.168.1.249&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;3. (Optional) Following step 2, open regedit: -&amp;gt; Win+R and enter regedit. Find [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor] and add a string key named Autorun, value is C:\bashrc.cmd"&lt;/p&gt;
 &lt;p&gt;4. Run the cmd file in the Developer Command Prompt in VS22 "C:\bashrc.cmd". There were some issues with it autorunning in step 3&lt;/p&gt;
 &lt;p&gt;5. Use rosrun to execute the individual programs on remote machine.&lt;/p&gt;
 &lt;h3&gt;Key instructions for raspi:&lt;/h3&gt;
 &lt;p&gt;1. On the raspi device open the .bashrc file, then add the lines:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;export ROS_MASTER_URI=http://192.168.1.19:11311
-export ROS_IP=192.168.1.19
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ROS_MASTER_URI&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="mf"&gt;192.168&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;1.19&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;11311&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ROS_IP&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;192.168&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;1.19&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;p&gt;2. Start roscore&lt;/p&gt;</content></entry><entry><title>TADA Software Architecture</title><link href="https://kieran-nichols.github.io/tada-software-architecture.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/tada-software-architecture.html</id><summary type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
+&lt;p&gt;2. Start roscore&lt;/p&gt;</content><category term="Tutorials"></category></entry><entry><title>TADA Software Architecture</title><link href="https://kieran-nichols.github.io/tada-software-architecture.html" rel="alternate"></link><published>2023-01-16T14:00:00-06:00</published><updated>2023-01-16T14:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/tada-software-architecture.html</id><content type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
 The software can be summariezed as follows:&lt;/p&gt;
 &lt;h3&gt;Architecture Summary&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_tadaros"&gt;Raspberry pi&lt;/a&gt;&lt;/h4&gt;
@@ -43,23 +41,7 @@ The software can be summariezed as follows:&lt;/p&gt;
 &lt;li&gt;Xsens&lt;/li&gt;
 &lt;li&gt;GUI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</summary><content type="html">&lt;p&gt;My PhD project involves developing a real-time controller for the Two Axis aDaptable Ankle (TADA).
-The software can be summariezed as follows:&lt;/p&gt;
-&lt;h3&gt;Architecture Summary&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_tadaros"&gt;Raspberry pi&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Brain&lt;/li&gt;
-&lt;li&gt;Motors&lt;/li&gt;
-&lt;li&gt;IMU&lt;/li&gt;
-&lt;li&gt;Europa&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;a href="https://github.com/kieran-nichols/catkin_ws_remote"&gt;Remote computer&lt;/a&gt; (Windows laptop)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Data processing &lt;/li&gt;
-&lt;li&gt;Xsens&lt;/li&gt;
-&lt;li&gt;GUI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</content></entry><entry><title>First post</title><link href="https://kieran-nichols.github.io/first-post.html" rel="alternate"></link><published>2023-01-16T12:00:00-06:00</published><updated>2023-01-16T12:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/first-post.html</id><summary type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="https://kieran-nichols.github.io/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Remote bridge: ROS over Wi-Fi&lt;/h4&gt;</content><category term="Posts"></category></entry><entry><title>First post</title><link href="https://kieran-nichols.github.io/first-post.html" rel="alternate"></link><published>2023-01-16T12:00:00-06:00</published><updated>2023-01-16T12:00:00-06:00</updated><author><name>kieran-nichols</name></author><id>tag:kieran-nichols.github.io,2023-01-16:/first-post.html</id><summary type="html">&lt;p&gt;&lt;img alt="Kieran Nichols" src="https://kieran-nichols.github.io/images/KieranNicholsColor-300x300.png"&gt;&lt;/p&gt;
 &lt;p&gt;Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
 My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
 and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 
@@ -67,4 +49,4 @@ Wisconsin-Madison, with a graduate date of …&lt;/p&gt;</summary><content type=
 &lt;p&gt;Engineer with eight years of experience in embedded systems, robotics, and biomechanics. 
 My research involves the mechanical design, the development of embedded software and motor/sensor integration, 
 and the biomechanical evaluation of robotic prostheses for human walking. Ph.D. candidate at the University of 
-Wisconsin-Madison, with a graduate date of August 2023.&lt;/p&gt;</content></entry></feed>
+Wisconsin-Madison, with a graduate date of August 2023.&lt;/p&gt;</content><category term="Posts"></category></entry></feed>

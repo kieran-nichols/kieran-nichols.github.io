@@ -70,21 +70,19 @@ https://github.com/Brabalawuka/RosOnWindows</p>
 <h3>Key instructions for remote windows:</h3>
 <p>1. Change ROS_MASTER URI (The rasp pi will be running roscore). You won't need to start roscore but you can if you want to run rostopic or rqt_plot
 2. Create a .txt including following content: (Use your raspi ip address). Save as C:\bashrc.cmd at disk C (or another non-catkin_ws location).</p>
-<div class="highlight"><pre><span></span>@echo off 
-set ROS_MASTER_URI=http://192.168.1.19:11311
-set ROS_IP=192.168.1.249
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="nv">@echo</span><span class="w"> </span><span class="k">off</span><span class="w"> </span>
+<span class="k">set</span><span class="w"> </span><span class="n">ROS_MASTER_URI</span><span class="o">=</span><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="mf">192.168.1.19</span><span class="err">:</span><span class="mi">11311</span>
+<span class="k">set</span><span class="w"> </span><span class="n">ROS_IP</span><span class="o">=</span><span class="mf">192.168.1.249</span>
+</code></pre></div>
 
 <p>3. (Optional) Following step 2, open regedit: -&gt; Win+R and enter regedit. Find [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor] and add a string key named Autorun, value is C:\bashrc.cmd"</p>
 <p>4. Run the cmd file in the Developer Command Prompt in VS22 "C:\bashrc.cmd". There were some issues with it autorunning in step 3</p>
 <p>5. Use rosrun to execute the individual programs on remote machine.</p>
 <h3>Key instructions for raspi:</h3>
 <p>1. On the raspi device open the .bashrc file, then add the lines:</p>
-<div class="highlight"><pre><span></span>export ROS_MASTER_URI=http://192.168.1.19:11311
-export ROS_IP=192.168.1.19
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="k">export</span><span class="w"> </span><span class="n">ROS_MASTER_URI</span><span class="o">=</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">192.168</span><span class="o">.</span><span class="mf">1.19</span><span class="p">:</span><span class="mi">11311</span>
+<span class="k">export</span><span class="w"> </span><span class="n">ROS_IP</span><span class="o">=</span><span class="mf">192.168</span><span class="o">.</span><span class="mf">1.19</span>
+</code></pre></div>
 
 <p>2. Start roscore</p>
           </div>
