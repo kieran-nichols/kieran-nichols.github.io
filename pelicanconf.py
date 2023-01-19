@@ -15,12 +15,12 @@ TIMEZONE = 'US/Central'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = None
-#CATEGORY_FEED_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-#AUTHOR_FEED_ATOM = None
-#AUTHOR_FEED_RSS = None
-#DISPLAY_CATEGORIES_ON_MENU = True
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+DISPLAY_CATEGORIES_ON_MENU = True
 
 THEME = 'themes/Bulrush'
 PLUGIN_PATHS = ['pelican-plugins']

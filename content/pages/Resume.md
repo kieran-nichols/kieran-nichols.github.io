@@ -28,7 +28,9 @@ and analysis (journal manuscripts in progress)
 
 * Validated the embedded software (C program), which used inertial sensors, motors, and a potentiometer for experiments on persons with lower-leg amputations
 * Processed and evaluated 3D marker and force plate data to access the effect of foot stiffness on the lower-limb knee and ankle mechanics (journal manuscripts: one, two, three, four: accepted)
-#### Neuromuscular Coordination Biomechanics Lab, Aug 2014 – Apr 2020
+
+__ Neuromuscular Coordination Biomechanics Lab, Aug 2014 – Apr 2020 __ 
+
 * Machined prototype and built the user interface and data collection software (LabVIEW) for a custom force-measurement system for standing balance experiments (U.S. patent)
 * Established and validated a frequency-based filtering method (LabVIEW) to characterize foot force control while standing in healthy and stroke-affected people (journal manuscript)
 ### Advisor for Industry Collaborations, Jan 2020 – Present
@@ -62,13 +64,13 @@ ___
 * __Kieran M. Nichols__ and Peter G. Adamczyk. “Real-time control of the New Two Axis aDaptable Ankle using a Raspberry Pi and CANopen motor communication.” MDPI Actuators. 
 * Michael J. Greene, Ivan F.E. Simones, Preston R. Lewis, __Kieran M. Nichols__, and Peter G. Adamczyk. “Non-backdrivable Wedge‐Cam Mechanism for a Semi‐Active Two‐Axis Prosthetic Ankle.” Elsevier Mechatronics. 
 #### Published
-* •	__Kieran M. Nichols__ and Peter G. Adamczyk. "Sensitivity of Lower-Limb Joint Mechanics to Prosthetic Forefoot Stiffness with a Variable Stiffness Foot in Level-Ground Walking." Journal of Biomechanics (2023): 111436.
+* __Kieran M. Nichols__ and Peter G. Adamczyk. "Sensitivity of Lower-Limb Joint Mechanics to Prosthetic Forefoot Stiffness with a Variable Stiffness Foot in Level-Ground Walking." Journal of Biomechanics (2023): 111436.
 * McGeehan, Michael A., Peter G. Adamczyk, __Kieran M. Nichols__, and Michael E. Hahn. A simulation-based analysis of the effects of variable prosthesis stiffness on interface dynamics between the prosthetic socket and residual limb. Journal of Rehabilitation and Assistive Technologies Engineering. no. 9 (2022).
 * McGeehan, Michael A., Peter G. Adamczyk, __Kieran M. Nichols__, and Michael E. Hahn. "A computational gait model with a below-knee amputation and a semi-active variable-stiffness foot prosthesis." Journal of Biomechanical Engineering 143, no. 12 (2021).
 * McGeehan, Michael A., Peter G. Adamczyk, __Kieran M. Nichols__, and Michael E. Hahn. "A Reduced-Order Computational Model of a Semi-Active Variable-Stiffness Foot Prosthesis." Journal of Biomechanical Engineering 143, no. 7 (2021).
 * Boehm, Wendy L., __Kieran M. Nichols__, and Kreg G. Gruben. "Frequency-dependent contributions of sagittal-plane foot force to upright human standing." Journal of Biomechanics 83 (2019): 305-309.
-* __Nichols, Kieran Marc__. “The Characterization of Foot Force Vector Control in Human Standing.” Dissertation. University of Wisconsin--Madison (2016).
+* __Kieran Marc Nichols__. “The Characterization of Foot Force Vector Control in Human Standing.” Dissertation. University of Wisconsin--Madison (2016).
 ### Patent:
-* Gruben, Kreg George, Wendy Lee Boehm, and __Kieran Marc Nichols__. "Apparatus for Assessing Human Balance Capability." U.S. Patent, No. 15/354,254.
+* Kreg George Gruben, Wendy Lee Boehm, and __Kieran Marc Nichols__. "Apparatus for Assessing Human Balance Capability." U.S. Patent, No. 15/354,254.
 
 
