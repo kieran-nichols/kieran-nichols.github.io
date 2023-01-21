@@ -4,4 +4,4 @@ category: Demo
 
 Setup instructions were found on this [tutorial](https://resonance-analytics.com/blog/deploying-dash-apps-on-azure)
 
-Preliminary example of the [TADA GUI](https://tadagui.azurewebsites.net)
+Preliminary example of the [TADA GUI](https://testkn4.azurewebsites.net)

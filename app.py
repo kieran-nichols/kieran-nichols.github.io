@@ -50,7 +50,7 @@ def TADA_angle(inclination_angle_deg, alpha_deg):
     Eversion_angle = 180/np.pi*R05[1,2];
     return (Plantarflexion_angle, Eversion_angle)
 
-app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])#(__name__)
+dashapp = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])#(__name__)
 
 # Main Dash app that processes and sorts the incoming ROS data and returns the appropiate scatter data that is added to the graphs
 # high-level callback for input widgets
@@ -203,8 +203,8 @@ if __name__ == '__main__':
     #p2 = Process(target=init_publisher, args=(record,angle,notes,))
     #p2.start()#; p1.join()
     init_publisher()
-
+    
     # Run the Dash app using app.run
-    app.run(debug=True, host='0.0.0.0') # seemed to be same speed and settings as above # setting debug to false does not seem to speed up the program  
+    dashapp.run(debug=True, host='0.0.0.0') # seemed to be same speed and settings as above # setting debug to false does not seem to speed up the program  
     #p3 = Process(target=app.run(debug=True))#, args=(record,))
     #p3.start()
