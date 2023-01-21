@@ -54,7 +54,7 @@ dashapp = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])#(__name__)
 
 # Main Dash app that processes and sorts the incoming ROS data and returns the appropiate scatter data that is added to the graphs
 # high-level callback for input widgets
-@app.callback(
+@dashapp.callback(
     [ Output('polar-graph', 'extendData'), Output('Theta', 'value'), Output('theta-gauge', 'value'), Output('Theta_num', 'value'),  Output('Alpha', 'value'), Output('alpha-gauge', 'value'), Output('Alpha_num', 'value'),],# 
     [ Input('our-power-button-1', 'on'), Input('Theta', 'value'), Input('Theta_num', 'value'), Input('Alpha', 'value'), Input('Alpha_num', 'value'), Input('dropdown_kill', 'value'), State('notes-input', 'value')], 
      prevent_initial_call=True
@@ -65,30 +65,30 @@ def update_output(on, value4, value3, value1, value0, value2, note): #, value3):
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
     theta1 = value4 if trigger_id == "Theta" else value3
     alpha1 = value1 if trigger_id == "Alpha" else value0
-    record.put(int(on)) if trigger_id == "our-power-button-1" else record.put(int(on))
-    notes.put(note) if trigger_id == "our-power-button-1" else notes.put(note)
-    angle.put(alpha1)
-    angle.put(theta1)
+    record = (int(on)) if trigger_id == "our-power-button-1" else record.put(int(on))
+    notes = (note) if trigger_id == "our-power-button-1" else notes.put(note)
+    #angle[0] = (alpha1)
+    #angle[1] = (theta1)
     
     (Plantarflexion_angle, Eversion_angle) = TADA_angle(theta1,alpha1)
     polar_info = [dict(x=[[Eversion_angle]], y=[[Plantarflexion_angle]]), [0], 10]
     return (polar_info, theta1, theta1, theta1, alpha1, alpha1, alpha1) 
 
 def init_publisher(record,angle,notes): 
-
-    while True:
-        rec = record.get()
-        note = notes.get()
-        if rec==1: 
-            pub_data = 1
-            pub_data1 = note
-        else: 
-            pub_data = 0
-            pub_data1 = ''
+    pass
+    #while True:
+    #    rec = record
+    #    note = notes
+    #    if rec==1: 
+    #        pub_data = 1
+    #        pub_data1 = note
+    #    else: 
+    #        pub_data = 0
+    #        pub_data1 = ''
         
-        alpha1 = angle.get()
-        theta1 = angle.get()
-        time.sleep(0.1)
+    #    alpha1 = angle
+    #    theta1 = angle
+    #    time.sleep(0.1)
 
 # Function for setting up the Dash graphical layout
 def setup_dash_app(shared_dict):
@@ -121,7 +121,7 @@ def setup_dash_app(shared_dict):
     figure_polar['layout']['yaxis']['range']=[-10, 10]
     figure_polar['layout']['xaxis']['range']=[-10, 10]
 
-    app.layout = html.Div(
+    dashapp.layout = html.Div(
                # Graphing
                 html.Div(
                     [
@@ -202,7 +202,7 @@ if __name__ == '__main__':
     # Give a separate process to the ROS publishers
     #p2 = Process(target=init_publisher, args=(record,angle,notes,))
     #p2.start()#; p1.join()
-    init_publisher()
+    init_publisher(record,angle,notes)
     
     # Run the Dash app using app.run
     dashapp.run(debug=True, host='0.0.0.0') # seemed to be same speed and settings as above # setting debug to false does not seem to speed up the program  
