@@ -1,45 +1,19 @@
 # !/usr/bin/env python3
-import rospy
-from std_msgs.msg import String, Bool
-from std_msgs.msg import Float32MultiArray
-from rospy.numpy_msg import numpy_msg
-import pandas as pd
-import json
 import numpy as np
-from rospy_tutorials.msg import Floats
 from collections import deque
-## Plotly setup
-# from https://www.geeksforgeeks.org/plot-live-graphs-using-python-dash-and-plotly/
-# from https://stackoverflow.com/questions/72496810/live-update-multiple-y-axis-in-plotly-dash
-# from https://stackoverflow.com/questions/63589249/plotly-dash-display-real-time-data-in-smooth-animation
-# from https://gitlab.com/chambana/ros-dashboard/-/blob/master/ros_dashboard.py
-# from https://www.geeksforgeeks.org/multiprocessing-python-set-2/
-# form https://stackoverflow.com/questions/65321096/plotly-dash-and-callbacks-that-invoke-multiprocessing-code
 import dash 
 import time
-import multiprocessing
 from dash.dependencies import Output, Input, State
 from dash import dcc
 from dash import html
-import pandas as pd
 import plotly.graph_objs as go
-from dash.exceptions import PreventUpdate
 from plotly.subplots import make_subplots
-from multiprocessing import Process, Manager, freeze_support, Pool, Pipe, Queue
-import functools
 import dash_daq as daq
 import dash_bootstrap_components as dbc
-from dash_extensions import Download
-from plotly.colors import sequential
-import random
 
-
-size = 10
 time1 = deque(maxlen = 50)
 X = deque(maxlen = 50)
 Y = deque(maxlen = 50)
-
-colors = sequential.Plasma[:size]
 
 def TADA_angle(inclination_angle_deg, alpha_deg):
     # code to solve plantarflexion and eversion angles for TADA foot
@@ -53,11 +27,9 @@ def TADA_angle(inclination_angle_deg, alpha_deg):
     alpha = alpha_deg * np.pi/180;
     Motor1_angle_unwrapped = 180/np.pi*(alpha - np.arctan2(np.tan(q3/2),np.cos(beta)));
     Motor2_angle_unwrapped = 180/np.pi*(-(alpha + np.arctan2(np.tan(q3/2),np.cos(beta)))); 
-    #fprintf("Motor1_angle_unwrapped, Motor2_angle_unwrapped: %.2f, %.2f\n", Motor1_angle_unwrapped, Motor2_angle_unwrapped); % print unwrapped angles
     
     Motor1_angle = (Motor1_angle_unwrapped  + 180) % ( 360 ) - 180
     Motor2_angle = (Motor2_angle_unwrapped  + 180) % ( 360 ) - 180
-    #fprintf("Motor1_angle, Motor2_angle: %.2f, %.2f\n", Motor1_angle, Motor2_angle); % print wrapped angles
     
     q1 = Motor1_angle*np.pi/180;
     q5 = Motor2_angle*np.pi/180;
@@ -74,39 +46,33 @@ def TADA_angle(inclination_angle_deg, alpha_deg):
     R04 = np.matmul(R03,R34)
     R05 = np.matmul(R04,R45)
     
-    # check the below calculation with the q1_q5 derivation and confirm with Peter
     Plantarflexion_angle = 180/np.pi*R05[0,2];
     Eversion_angle = 180/np.pi*R05[1,2];
-    # print("Plantarflexion_angle, Eversion_angle: %.2f, %.2f\n", Plantarflexion_angle, Eversion_angle)
     return (Plantarflexion_angle, Eversion_angle)
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])#(__name__)
 
 # Main Dash app that processes and sorts the incoming ROS data and returns the appropiate scatter data that is added to the graphs
-# This callback is quicker with direct javascript code that is embedded in the triple quotations marks
-
 # high-level callback for input widgets
 @app.callback(
     [ Output('polar-graph', 'extendData'), Output('Theta', 'value'), Output('theta-gauge', 'value'), Output('Theta_num', 'value'),  Output('Alpha', 'value'), Output('alpha-gauge', 'value'), Output('Alpha_num', 'value'),],# 
-    [ Input('our-power-button-1', 'on'), Input('Theta', 'value'), Input('Theta_num', 'value'), Input('Alpha', 'value'), Input('Alpha_num', 'value'), Input('dropdown_kill', 'value'), State('notes-input', 'value')], # Input('graph-update', 'n_intervals'), 
+    [ Input('our-power-button-1', 'on'), Input('Theta', 'value'), Input('Theta_num', 'value'), Input('Alpha', 'value'), Input('Alpha_num', 'value'), Input('dropdown_kill', 'value'), State('notes-input', 'value')], 
      prevent_initial_call=True
     )
-def update_output(on, value4, value3, value1, value0, value2, note): #, value3): n_intervals, 
+
+def update_output(on, value4, value3, value1, value0, value2, note): #, value3): 
     ctx = dash.callback_context
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
     theta1 = value4 if trigger_id == "Theta" else value3
     alpha1 = value1 if trigger_id == "Alpha" else value0
     record.put(int(on)) if trigger_id == "our-power-button-1" else record.put(int(on))
     notes.put(note) if trigger_id == "our-power-button-1" else notes.put(note)
-    
     angle.put(alpha1)
     angle.put(theta1)
     
     (Plantarflexion_angle, Eversion_angle) = TADA_angle(theta1,alpha1)
-    #color = dict(symbol="arrow", size=15, angleref="previous",color=colors[0]) #random.choice(colors))
-    
-    polar_info = [dict(x=[[Eversion_angle]], y=[[Plantarflexion_angle]]), [0], size] # can't seem to edit color once the plot is made; I tried changing the marker=color to no avail
-    return (polar_info, theta1, theta1, theta1, alpha1, alpha1, alpha1) # f'Theta: {theta1},  Alpha: {alpha1}.', f'Killed {value2} node.') # can't call too many
+    polar_info = [dict(x=[[Eversion_angle]], y=[[Plantarflexion_angle]]), [0], 10]
+    return (polar_info, theta1, theta1, theta1, alpha1, alpha1, alpha1) 
 
 def init_publisher(record,angle,notes): 
 
@@ -150,7 +116,7 @@ def setup_dash_app(shared_dict):
     figure = figure
     
     figure_polar = go.Figure()
-    figure_p = go.Scatter(x=[0], y=[0], mode= 'lines+markers', name='Polar graph', marker=dict(symbol="arrow", size=15, angleref="previous",color=colors[0])) #, line=dict(color=colors))
+    figure_p = go.Scatter(x=[0], y=[0], mode= 'markers', name='Polar graph')
     figure_polar.add_trace(figure_p)
     figure_polar['layout']['yaxis']['range']=[-10, 10]
     figure_polar['layout']['xaxis']['range']=[-10, 10]
@@ -167,7 +133,7 @@ def setup_dash_app(shared_dict):
                                         className="d-grid gap-2 d-md-flex justify-content-md-center", style={"width": "33%"}),
                                         html.Div([daq.BooleanSwitch(id='calibrate', on=False, label='Calibrate', labelPosition="top")],style={"width": "33%"})], 
                              style=dict(display='flex',paddingBottom='1rem'), ), 
-                                     
+                    
                     html.Div(children=[ html.Div([dcc.Dropdown(['None', 'Motor', 'IMU', 'Europa', 'Xsens', 'Data processing', 'All'], 'None', id='dropdown_kill'), html.Div(id='dropdown_kill-result') ], 
                                                  style={"width": "100%", 'textAlign': 'center'}),],style=dict(display='flex',paddingBottom='1rem')), 
                     
@@ -214,29 +180,29 @@ def setup_dash_app(shared_dict):
 
 if __name__ == '__main__':
     ## Create shared memory handled by a different processor for the ROS subscribers
-    manager = Manager()
-    resolution = 50
-    shared_dict = manager.dict()
-    #shared_dict["z"] = [0,1,1,1,1,1,1,50]
-    #shared_dict["x"] = [0]
-    #shared_dict["y"] = [0]
+    #manager = Manager()
+    #resolution = 50
+    shared_dict = dict() # manager.dict()
     
     # Create a queue to share data between the processes
-    record = Queue(maxsize=1)
-    record.put(0)
-    angle = Queue(maxsize=2)
-    angle.put(0)
-    angle.put(0)
-    notes = Queue()
-    notes.put('0')
+    #record = Queue(maxsize=1)
+    #record.put(0)
+    #angle = Queue(maxsize=2)
+    #angle.put(0)
+    #angle.put(0)
+    #notes = Queue()
+    #notes.put('0')
+    record = 0
+    angle = [0,0]
+    notes= '0'
 
     # Set up the Dash graphing layout
     setup_dash_app(shared_dict)
     
     # Give a separate process to the ROS publishers
-    p2 = Process(target=init_publisher, args=(record,angle,notes,))
-    p2.start()#; p1.join()
-    #init_publisher()
+    #p2 = Process(target=init_publisher, args=(record,angle,notes,))
+    #p2.start()#; p1.join()
+    init_publisher()
 
     # Run the Dash app using app.run
     app.run(debug=True, host='0.0.0.0') # seemed to be same speed and settings as above # setting debug to false does not seem to speed up the program  
