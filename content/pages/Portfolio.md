@@ -7,7 +7,7 @@ title: Portfolio
 * Graph display
 * User interface
 * ROS node graph with pictures and links
-* Sample graphs for data analyses: [line](https://www.kieran-nichols.com/file_line), [polar](https://www.kieran-nichols.com/file_polar)
+* Sample graphs for data analyses: [line](https://www.kieran-nichols.com/sample-line-plot-for-tada-data.html), [polar](https://www.kieran-nichols.com/sample-polar-plot-for-tada-data.html)
 ### Variable Stiffness Foot (VSF)
 * [Journal Manuscript](https://authors.elsevier.com/a/1gTp74-6-e4tq)
 * [Project Summary](https://www.kieran-nichols.com/vsf__publication_post)
