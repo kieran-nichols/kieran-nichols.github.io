@@ -7,19 +7,16 @@ title: Portfolio
 * Graph display
 * User interface
 * ROS node graph with pictures and links
-* CPU data display
-* Sample graphs for data analyses
+* Sample graphs for data analyses: [line](https://www.kieran-nichols.com/file_line), [polar](https://www.kieran-nichols.com/file_polar)
 ### Variable Stiffness Foot (VSF)
-* Pictures
-* Data flow graph
-* Mechanics graphs
-* Regression
+* [Journal Manuscript](https://authors.elsevier.com/a/1gTp74-6-e4tq)
+* [Project Summary](https://www.kieran-nichols.com/vsf__publication_post)
 ## Neuromuscular Coordination Biomechanics Lab (UWNCL)
 * Standing force plate user interface
 * Example of flow of data analysis for freq and wavelet based IP filtering
 * Kines 318 lab user interfaces
 ## Class projects
-* Optimization
+* [Intro to Optimization](https://nbviewer.org/urls/laurentlessard.com/teaching/cs524/project/Spring2018/DawsonDillsNichols.ipynb)
 * Computational Dynamics
 * Parallel/GPU Computing
 * Intro to Robotics
