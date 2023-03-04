@@ -4,7 +4,7 @@ category: Posts
 
 ## Introduction
 I would love to present my first 1st-author journal paper: [Sensitivity of lower-limb joint mechanics to prosthetic forefoot stiffness with a 
-variable stiffness foot in level-ground walking](https://authors.elsevier.com/a/1gTp74-6-e4tq). You can access it for free til Mar 15. It presents 
+variable stiffness foot in level-ground walking](https://authors.elsevier.com/a/1gTp74-6-e4tq). You can access it for free till Mar 15. It presents 
 my work on a prosthetic foot that can change stiffness. We tested our prosthesis, the Variable Stiffness Foot (VSF) on persons with below-the-knee 
 amputations. 
 
