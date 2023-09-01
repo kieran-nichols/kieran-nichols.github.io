@@ -6,8 +6,7 @@ category: Posts
 Hey everyone, I successfully defended my PhD :) My PhD focused on the Development and Application of Semi-Active Prostheses. I'm currently applying for engineering careers in biomechanics, robotics, wearables, and embedded systems. 
 Please reach out to me if you're hiring or connect me with any teams interested in my skills.
 </br></br> 
-
-<img src=images/post_defense_photo_v1.jpg width="500" height="346">
+<img src=/images/post_defense_photo_v1.jpg width="500" height="346"> 
 
 ## Summary of my Dissertation
 (Taken directly from the abstract of my dissertation) </br></br>

@@ -9,20 +9,21 @@ my work on a prosthetic foot that can change stiffness. We tested our prosthesis
 amputations. 
 
 ## Method
-<img src=images/method.jpg width="413" height="443">
-</br>
+<img src=/images/method.jpg width="413" height="443">
+</br></br>
+
 Participants walked across two force plates in a motion capture lab wearing the VSF. Three successful trails were collected for each stiffness 
 (Compliant, Medium, High) walking at a consistent self-selected speed. Some data had to be removed due to incomplete contact with force plates, 
 faults in the VSF, and missing markers. A synchronization algorithm was used to align the force plate and motion capture data for a few participants.
 
 ## Results
-![results1](images/representative_datajpg.jpg)
+![results1](/images/representative_datajpg.jpg)
 Prosthetic-side joint mechanics for a representative subject walking with the Variable Stiffness Foot (VSF). First row is prosthetic angles for ankle 
 and knee; second row is the prosthetic moments for the ankle and knee; the third row is the Unified Deformable-body (UD) push-off power and vertical 
 ground reaction force for the prosthetic side. Mean curves across trials for each stiffness condition are plotted, and data is shown for the prosthetic 
 stance phase from heel strike to toe-off. Grey rectangles represent the region of concern for each variable where the peaks or areas are considered. 
 Asterisks were included after the words, 'area' and 'peak' to highlight the variables which had statistical significance with changes in stiffness.
-![results2](images/vsf_regression.jpg)
+![results2](/images/vsf_regression.jpg)
 Linear mixed-effect regressions for ankle and knee angles and moments, Unified Deformable-body (UD) power, prosthesis energy storage and energy return, 
 vertical Ground Reaction Force (vGRF), and vGRF offloading rate for the non-dimensionalized data, with respect to stiffness settings. Stiffness settings 
 1, 2, 3 relate to Compliant, Medium, and Stiff stiffnesses, respectively. The grey bar represents the linear mixed effects fit of all subjects. 
