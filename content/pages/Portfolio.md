@@ -22,7 +22,7 @@ title: Portfolio
 * Designed frequency-based filtering method (LabVIEW) to characterize foot force control: [paper](https://doi.org/10.1016/j.jbiomech.2018.11.039)
 ## Other projects
 * [Intro to Optimization](https://nbviewer.org/urls/laurentlessard.com/teaching/cs524/project/Spring2018/DawsonDillsNichols.ipynb)
-* Computational Dynamics
+* Computational Dynamics: Machine Learning
 * Parallel/GPU Computing
 * Intro to Robotics
 * Dance project
