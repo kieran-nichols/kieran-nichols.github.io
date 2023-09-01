@@ -5,7 +5,8 @@ category: Posts
 ## Announcement
 Hey everyone, I successfully defended my PhD :) My PhD focused on the Development and Application of Semi-Active Prostheses. I'm currently applying for engineering careers in biomechanics, robotics, wearables, and embedded systems. 
 Please reach out to me if you're hiring or connect me with any teams interested in my skills.
-</br></br>
+</br></br> 
+
 <img src=images/post_defense_photo_v1.jpg width="500" height="346">
 
 ## Summary of my Dissertation
@@ -33,8 +34,8 @@ terrains in users with transtibial amputations.
 
 ## Resources
 - [Recorded Video](https://www.youtube.com/watch?v=0yTclz5rqWc&ab_channel=KieranNichols)
-- [Dissertation Document](docs/Dissertation_submission.pdf)
-- [Presentation slides](docs/Defense_presentation.pdf)
+- [Dissertation Document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Dissertation_submission.pdf)
+- [Presentation slides](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
 
 ## References
 Nichols, Kieran.   The University of Wisconsin - Madison ProQuest Dissertations Publishing,  2023. 30637924.  [(Published document)](https://www.proquest.com/docview/2858207421)
