@@ -37,4 +37,4 @@ terrains in users with transtibial amputations.
 - [Presentation slides](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
 
 ## References
-Nichols, Kieran.   The University of Wisconsin - Madison ProQuest Dissertations Publishing,  2023. 30637924.  [(Published document)](https://www.proquest.com/docview/2858207421)
+Nichols, Kieran.  The University of Wisconsin - Madison ProQuest Dissertations Publishing, 2023. 30637924. [(Published document)](https://www.proquest.com/docview/2858207421)
