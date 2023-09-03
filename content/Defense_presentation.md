@@ -3,8 +3,12 @@ Date: 2023-09-01 10:00
 category: Posts
 
 ## Announcement
-Hey everyone, I successfully defended my PhD :) My PhD focused on the Development and Application of Semi-Active Prostheses. I'm currently applying for engineering careers in biomechanics, robotics, wearables, and embedded systems. 
-Please reach out to me if you're hiring or connect me with any teams interested in my skills.
+Hey everyone, I successfully completed my PhD where my research focused on the Development and Application of Semi-Active Prostheses. 
+As I embark on the next chapter of my career, I am actively seeking opportunities in engineering, specifically within the fields of biomechanics, robotics, mechatronics, and embedded systems.
+</br></br>
+If you want to learn more about my research or know of relevant job opportunities, please don't hesitate to reach out to me. 
+I look forward to connecting with professionals and organizations who share my passion for innovation and technology.
+
 </br></br> 
 <img src=/images/post_defense_photo_v1.jpg width="500" height="346"> 
 

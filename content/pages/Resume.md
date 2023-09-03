@@ -7,10 +7,11 @@ ___
 ## EDUCATION
 ### University of Wisconsin-Madison, Madison, WI	
 * Ph.D. in Mechanical Engineering: Biomechatronics, Aug 2023   
-* M.Scs. in Mechanical Engineering and Kinesiology (Biomechanics), Aug 2019
+* Master of Science in Mechanical Engineering, Aug 2019
+* Master of Science in Kinesiology (Biomechanics), Dec 2017
 
 ### Pennsylvania State University, University Park
-* B.Sc. in Kinesiology: Movement Science, May 2014    
+* Bachelor of Science in Kinesiology: Movement Science, May 2014    
 ___
 ## WORK EXPERIENCE
 ### Research Assistant, Madison, WI
