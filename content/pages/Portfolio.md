@@ -28,7 +28,7 @@ title: Portfolio
 * Computational Dynamics of Multi-segmented Bodies with Machine Learning (Python): [code](), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/me751KieranNichols.pdf)
 * Parallel/GPU Computing (C++, CUDA): code, [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
 * Intro to Robotics (Python): code, [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
-* Dancing with Lights project (Python): [code](), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
+* Dancing with Lights project (Python): [code](https://github.com/kieran-nichols/Dancing_with_lights), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
 * Websites: [Personal website (Python/HTML)](https://www.kieran-nichols.com/), [Previous-lab page (Wordpress)](https://uwbadgerlab.engr.wisc.edu/lab-members-new/kieran-nichols/), [Dynamic Walking conference website (Wordpress)](https://dynamicwalking.engr.wisc.edu/)
 ### Presentations
 * Masters: Defense Exam's Presentation, Document
