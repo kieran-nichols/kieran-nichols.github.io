@@ -4,7 +4,7 @@ title: Portfolio
 ### Two Axis Adaptable Ankle (TADA)
 * *Prosthetic ankle that modulates 2D ankle angle using brushless DC motors with motion and load sensors*
 * [Project description](https://github.com/kieran-nichols/catkin_ws_tadaros)
-* Overview of software architecture: diagram
+* Overview of software architecture: diagram, [troubleshooting]()
 * Software controller of the TADA using the Robotic Operating System (ROS) on a Raspberry Pi 4: diagram, [code](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/main/src/tada-ros/src/tada_ros/ankle_brain)
 * Motion sensor for prosthesis (Python): [code](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/main/src/tada-ros/src/tada_ros/sensors)
 * Load sensor for prosthesis (Python): [code](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/main/src/tada-ros/src/tada_ros/europa)
@@ -15,14 +15,15 @@ title: Portfolio
 * Work done in [Biomechatronics, Assistive Devices, Gait Engineering, and Rehabilitation (BADGER Lab)](https://uwbadgerlab.engr.wisc.edu/)
 ### Variable Stiffness Foot (VSF)
 * *Prosthetic foot that modulates foot stiffness using a brushed DC motor with motion and potentiometer sensors*
-* [Journal Manuscript](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
+* [Journal Manuscript](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/1-s2.0-S0021929023000052-main.pdf)
 * [Project Description](https://www.kieran-nichols.com/vsf-publication-post.html)
-* Collaboration papers with University of Oregon for simulation analyses using VSF: papers [one](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf), [two](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf), [three](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
+* Collaboration papers with University of Oregon for simulation analyses using VSF: papers [one](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/GaitModelManuscript_JBME.pdf), [two](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/mcgeehan-et-al-2022-a-simulation-based-analysis-of-the-effects-of-variable-prosthesis-stiffness-on-interface-dynamics.pdf), [three](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/bio_143_07_074503.pdf)
 ## <u>Kinesiology</u>
 * Built force plate for detecting small changes in foot-ground forces in human standing: [patent](https://patentimages.storage.googleapis.com/00/2c/cb/07a8d3c419e81c/US20180132777A1.pdf)
 * Designed frequency-based filtering method (LabVIEW) to characterize foot force control: [journal manuscript](https://doi.org/10.1016/j.jbiomech.2018.11.039)
 * Work done in [Neuromuscular Coordination Biomechanics Lab (UWNCL)](https://ncl.labs.wisc.edu/)
 ## <u>Other projects</u>
+* [Collaboration journal manuscript on Wearable Technology](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/1-s2.0-S246845112300048X-main.pdf)
 * Intro to Optimization (Julia): [website of jupyter notebook](https://nbviewer.org/urls/laurentlessard.com/teaching/cs524/project/Spring2018/DawsonDillsNichols.ipynb)
 * Computational Dynamics of Multi-segmented Bodies with Machine Learning (Python): [code](), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/me751KieranNichols.pdf)
 * Parallel/GPU Computing (C++, CUDA): code, [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
