@@ -33,9 +33,10 @@ JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
 JINJA_FILTERS = bulrush.FILTERS
 
 SOCIAL = (
-    ('Email', 'knichols4@wisc.edu'),
+    ('Email', 'the1kieran@gmail.com'),
     ("Github", "https://github.com/kieran-nichols/"),
-    ("LinkedIn", "https://www.linkedin.com/in/kieran-nichols-24134479/")
+    ("LinkedIn", "https://www.linkedin.com/in/kieran-nichols-24134479/"),
+    ("Twitter", "https://twitter.com/home")
 )
 
 #MENUITEMS = (

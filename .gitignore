@@ -1,2 +1,12 @@
 venv/
 .vs/
+Makefile
+_pycache_
+bin
+share
+include
+lib
+lib64
+venv
+pelican_plugins
+themes
