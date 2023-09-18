@@ -1,7 +1,7 @@
 ﻿title: Resume
 
 ## PROFESSIONAL SUMMARY
-Ph.D. researcher with eight years of experience in embedded systems, robotics, and biomechanics, and collaboration with industry partners. My research involves the mechanical design, 
+Engineer and Scientist with eight years of experience in embedded systems, robotics, and biomechanics, and collaboration with industry partners. My research involves the mechanical design, 
 the development of embedded software and motor-sensor integration, and the biomechanical evaluation of robotic prostheses in human walking.
 ___
 ## EDUCATION
@@ -61,7 +61,6 @@ ___
 ### Journal Articles:
 #### In Progress
 * __Kieran M. Nichols__, Rebecca Roembke, Peter G. Adamczyk. “Prosthetic biomechanical responses for moment targeting control using the Two Axis aDaptable Ankle in able-body walkers.” IEEE Transactions on Neural Systems and Rehabilitation Engineering. 
-* __Kieran M. Nichols__, Rebecca Roembke, Sofya Aketova, Peter G. Adamczyk. “Validation of the moment-targeting control for the new Two Axis aDaptable Ankle (TADA).” IEEE/ASME Journal of Mechatronics. 
 * __Kieran M. Nichols__ and Peter G. Adamczyk. “Real-time control of the New Two Axis aDaptable Ankle using a Raspberry Pi and CANopen motor communication.” MDPI Actuators. 
 * Michael J. Greene, Ivan F.E. Simones, Preston R. Lewis, __Kieran M. Nichols__, and Peter G. Adamczyk. “Non-backdrivable Wedge‐Cam Mechanism for a Semi‐Active Two‐Axis Prosthetic Ankle.” Elsevier Mechatronics. 
 #### Published
