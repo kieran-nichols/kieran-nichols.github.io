@@ -26,9 +26,9 @@ title: Portfolio
 * Designed frequency-based filtering method (LabVIEW) to characterize foot force control: [journal manuscript](https://doi.org/10.1016/j.jbiomech.2018.11.039)
 * Work done in [Neuromuscular Coordination Biomechanics Lab (UWNCL)](https://ncl.labs.wisc.edu/)
 ## <u>Other projects</u>
-* [Collaboration journal manuscript on Wearable Technology](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/1-s2.0-S246845112300048X-main.pdf)
-* Intro to Optimization (Julia): [website of jupyter notebook](https://nbviewer.org/urls/laurentlessard.com/teaching/cs524/project/Spring2018/DawsonDillsNichols.ipynb)
-* Computational Dynamics of Multi-segmented Bodies with Machine Learning (Python): [code](), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/me751KieranNichols.pdf)
+* Collaboration paper on Wearable Technology: [journal manuscript](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/1-s2.0-S246845112300048X-main.pdf)
+* Introduction to Optimization (Julia): [website of jupyter notebook](https://nbviewer.org/urls/laurentlessard.com/teaching/cs524/project/Spring2018/DawsonDillsNichols.ipynb)
+* Computational Dynamics of Multi-segmented Bodies with Machine Learning (Python): [code](https://github.com/kieran-nichols/ME_751_Code/tree/master/chrono-tensorflow), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/me751KieranNichols.pdf)
 * Parallel/GPU Computing (C++, CUDA): code, [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Defense_presentation.pdf)
 * Dancing with Lights project (Python): [code](https://github.com/kieran-nichols/Dancing_with_lights), [document](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/Kohler%Performance%Poster.pdf), video
 * Websites: [Personal website (Python/HTML)](https://www.kieran-nichols.com/), [Previous-lab page (Wordpress)](https://uwbadgerlab.engr.wisc.edu/lab-members-new/kieran-nichols/), [Dynamic Walking conference website (Wordpress)](https://dynamicwalking.engr.wisc.edu/)
