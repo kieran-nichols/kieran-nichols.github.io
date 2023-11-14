@@ -1,7 +1,7 @@
 ﻿title: Resume
 
 ## PROFESSIONAL SUMMARY
-Engineer and Scientist with eight years of experience in embedded systems, robotics, and biomechanics, and collaboration with industry partners. My research involves the mechanical design, 
+Mechatronic Engineer and Research Scientist with nine years of experience in embedded systems, robotics, and biomechanics, and collaboration with industry partners. My research involved the mechanical design, 
 the development of embedded software and motor-sensor integration, and the biomechanical evaluation of robotic prostheses in human walking.
 ___
 ## EDUCATION
@@ -65,7 +65,7 @@ ___
 * __Kieran M. Nichols__, Rebecca Roembke, Peter G. Adamczyk. “Real-time control of the New Two Axis aDaptable Ankle using a Raspberry Pi, ROS, and CANopen motor communication.” MDPI Actuators. 
 * Michael J. Greene, Ivan F.E. Simones, Preston R. Lewis, __Kieran M. Nichols__, and Peter G. Adamczyk. “Non-backdrivable Wedge‐Cam Mechanism for a Semi‐Active Two‐Axis Prosthetic Ankle.” Elsevier Mechatronics. 
 #### Published
-* •	Peter G. Adamczyk, Sara Harper, Alex Reiter, Rebecca Roembke, Yisen Wang, __Kieran M. Nichols__, Darryl Thelen. “Wearable sensing for understanding and influencing human movement in ecological contexts.” Current Opinion in Biomedical Engineering. (2023): 100492.
+* Peter G. Adamczyk, Sara Harper, Alex Reiter, Rebecca Roembke, Yisen Wang, __Kieran M. Nichols__, Darryl Thelen. “Wearable sensing for understanding and influencing human movement in ecological contexts.” Current Opinion in Biomedical Engineering. (2023): 100492.
 * __Kieran M. Nichols__ and Peter G. Adamczyk. "Sensitivity of Lower-Limb Joint Mechanics to Prosthetic Forefoot Stiffness with a Variable Stiffness Foot in Level-Ground Walking." Journal of Biomechanics (2023): 111436.
 * McGeehan, Michael A., Peter G. Adamczyk, __Kieran M. Nichols__, and Michael E. Hahn. A simulation-based analysis of the effects of variable prosthesis stiffness on interface dynamics between the prosthetic socket and residual limb. Journal of Rehabilitation and Assistive Technologies Engineering. no. 9 (2022).
 * McGeehan, Michael A., Peter G. Adamczyk, __Kieran M. Nichols__, and Michael E. Hahn. "A computational gait model with a below-knee amputation and a semi-active variable-stiffness foot prosthesis." Journal of Biomechanical Engineering 143, no. 12 (2021).
