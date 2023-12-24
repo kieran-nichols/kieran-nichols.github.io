@@ -3,7 +3,7 @@ title: Portfolio
 ## <u>Mechanical Engineering</u>
 ### Two Axis Adaptable Ankle (TADA)
 * *Prosthetic ankle that modulates 2D ankle angle using brushless DC motors with motion and load sensors*
-* [Project description](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/8d523b213062f5cb3155ff94542c0f2d29e2fa5c)
+* [Project description](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/8d523b213062f5cb3155ff94542c0f2d29e2fa5c)[3D Interative Graphic](https://www.kieran-nichols.com/docs/VSF_Main_Assembly.html)
 * Overview of software architecture: [commands](https://github.com/kieran-nichols/catkin_ws_remote/blob/498678f29a98c41b06cf444f24e4db143955122a/Software_command.md), [troubleshooting](https://github.com/kieran-nichols/catkin_ws_remote/blob/498678f29a98c41b06cf444f24e4db143955122a/Troubleshooting_doc.md)
 * Software controller using the Robotic Operating System (ROS) on a Raspberry Pi 4: [overview](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/8d523b213062f5cb3155ff94542c0f2d29e2fa5c/src/tada-ros/src/tada_ros/ankle_brain), [code](https://github.com/kieran-nichols/catkin_ws_tadaros/blob/8d523b213062f5cb3155ff94542c0f2d29e2fa5c/src/tada-ros/src/tada_ros/ankle_brain/brain_node.py)
 * Motor control for two brushless DC motors [overview, ](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/8d523b213062f5cb3155ff94542c0f2d29e2fa5c/src/soem)[code](https://github.com/kieran-nichols/catkin_ws_tadaros/blob/8d523b213062f5cb3155ff94542c0f2d29e2fa5c/src/soem/SOEM/test/linux/simple_test/simple_test.cpp)
