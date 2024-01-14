@@ -16,7 +16,7 @@ title: Portfolio
 * Work done in [Biomechatronics, Assistive Devices, Gait Engineering, and Rehabilitation (BADGER Lab)](https://uwbadgerlab.engr.wisc.edu/)
 ### Variable Stiffness Foot (VSF)
 * *Prosthetic foot that modulates foot stiffness using a brushed DC motor with motion and potentiometer sensors*
-* [Project Description](https://www.kieran-nichols.com/vsf-publication-post.html)
+* [Project Description](https://www.kieran-nichols.com/vsf-publication-post.html), [3D Interative Graphic](https://www.kieran-nichols.com/VSF_Main_Assembly.html)
 * [Journal Manuscript](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/1-s2.0-S0021929023000052-main.pdf)
 * Collaboration papers with University of Oregon for simulation analyses using VSF: 
 [first](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/GaitModelManuscript_JBME.pdf), 
