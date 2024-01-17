@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'kieran-nichols'
 SITENAME = 'Kieran Nichols'
 # SITEURL = 'https://www.kieran-nichols.com'
-SITEURL = 'www.kieran-nichols.github.io'
+SITEURL = 'https://www.kieran-nichols.github.io'
 
 PATH = 'content'
 
