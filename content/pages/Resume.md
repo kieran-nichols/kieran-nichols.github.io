@@ -1,8 +1,11 @@
 ﻿title: Resume
 
 ## PROFESSIONAL SUMMARY
-Mechatronic Engineer and Research Scientist with nine years of experience in embedded systems, robotics, and biomechanics, and collaboration with industry partners. My research involved the mechanical design, 
-the development of embedded software and motor-sensor integration, and the biomechanical evaluation of robotic prostheses in human walking.
+Experienced Engineer and Scientist specializing in bio-mechatronics and embedded systems with a decade of expertise 
+in developing robotic prostheses and biomechanical evaluation frameworks. Proven 
+track record in leading interdisciplinary teams, optimizing real-time software 
+frameworks, and conducting advanced human factors research. Currently focused on 
+assessing fatigue impacts on performance through synchronized data collection and analysis
 ___
 ## EDUCATION
 ### University of Wisconsin-Madison, Madison, WI	
@@ -14,7 +17,19 @@ ___
 * Bachelor of Science in Kinesiology: Movement Science, May 2014    
 ___
 ## WORK EXPERIENCE
-### Research Assistant, Madison, WI
+
+### Research Scientist, Madison, WI
+
+__ Industrial and Systems Engineering and Mechanical Engineering Departments, Nov 2023 – Present __	
+
+*Biomechanical Evaluation of Fatigue on Performance from a Human-Factors Perspective*
+
+* Led a pilot project for investigating the effect of mental-fatigue, sleep-deprivation, simulated altered gravity on mental and motor performance using motion/force sensors and vestibular stimulation.
+* Developed a synchronized and real-time software framework for collecting data from multiple sensors (motion, force, video, muscle activation) and computers (Linux, Windows), currently used by multiple lab members.
+* Established a research plan for a Human-Robot Interaction study that will investigate the effect of physical fatigue and adaptive learning on workers’ performances. We will assess handle-haptics, eye-gaze, and body-motion while human-human and human-robot teams co-transport (translate and rotate) objects in a room. 
+* I also collaborated with the Mechanical Engineering Department to develop prosthetic controller frameworks.
+
+### Graduate Researcher, Madison, WI
 __ Biomechatronics, Assistive Devices, Gait Engineering, and Rehabilitation Laboratory, Jan 2017 - Present__
 
 *Two Axis aDaptable Ankle (TADA): prosthetic ankle that modulates 2D ankle angle*
@@ -38,7 +53,8 @@ __ Neuromuscular Coordination Biomechanics Lab, Aug 2014 – Apr 2020 __
 professors, and graduate students 
 * Scientific Liaison: ensured effective communication among participants, scientists, engineers, and medical professionals: prosthetists and physical therapists
 * Assistant Conference Chair: coordinated the Dynamic walking 2023 Conference with 130 participants in Madison, WI, from academia and industry in the field of robotics, biomechanics, and artificial intelligence
-### Teaching Assistant: Introduction to Biomechanics and Introduction to Robotics, Aug 2014 – May 2020	
+### Graduate Teacher
+__ Introduction to Biomechanics and Introduction to Robotics, Aug 2014 – May 2020 __	
 * Led biomechanics lab sessions and office hours, and trained new teaching assistants
 * Facilitated python-based ROS development and use of robotic arms and mobile mini-cars 
 ___
