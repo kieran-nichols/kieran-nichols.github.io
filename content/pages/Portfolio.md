@@ -1,8 +1,15 @@
 title: Portfolio
-*More details to come*
+
+## <u>Sub-Zero Group</u>
+### Senior Embedded Quality-Assurance Engineer
+*  Developing and executing comprehensive test plans, test cases, and test scripts to validate mechanical and software functionality, 
+ performance, usability, and security for the R&D of Sub-Zero's kitchen appliances. 
+* Collaborating with cross-functional teams, including developers, designers, and product managers, 
+to understand hardware and software requirements and ensure proper test coverage.
+
 ## <u>Industrial and Systems Engineering</u>
 ### Biomechanical Evaluation of the Effect of Fatigue on Performance, from a Human-Factors Perspective
-* Developed real-time software frameworks for synchronized data collection from multiple IoT sensors and devices.
+* Developed real-time software frameworks for synchronized data collection from multiple IoT sensors and devices. [Project documents](https://github.com/kieran-nichols/Lab_Stream_Layer_Kieran)
 * Established a research plan for Human-Robot Interaction investigating coadaptation for object transportation.
 * Collaborated with the Mechanical Engineering Department to develop prosthetic controller frameworks.
 

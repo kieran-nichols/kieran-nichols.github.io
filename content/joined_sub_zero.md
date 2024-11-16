@@ -8,7 +8,7 @@ I'm eager to broaden my skills and contribute to the QA/Hardware-in-the-Loop (HI
 Sub-Zero's next-generation kitchen appliances.</br> 
 I'm grateful to work for a company that places such a high value on quality, and one that deeply cares 
 about both its employees and customers. Looking forward to this new chapter! 
-https://www.linkedin.com/.../urn:li:activity.../
+https://www.linkedin.com/in/kieran-nichols-phd-24134479/
 
 </br></br> 
 <img src=/images/join_subzero.jpg> 

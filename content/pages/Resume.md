@@ -1,26 +1,26 @@
 ﻿title: Resume
 
 ## PROFESSIONAL SUMMARY
-Experienced Engineer and Scientist specializing in bio-mechatronics and embedded systems with a decade of expertise 
-in developing robotic prostheses and biomechanical evaluation frameworks. Proven 
-track record in leading interdisciplinary teams, optimizing real-time software 
-frameworks, and conducting advanced human factors research. Currently focused on 
-assessing fatigue impacts on performance through synchronized data collection and analysis
-___
-## EDUCATION
-### University of Wisconsin-Madison, Madison, WI	
-* Ph.D. in Mechanical Engineering: Biomechatronics, Aug 2023   
-* Master of Science in Mechanical Engineering, Dec 2018
-* Master of Science in Kinesiology (Biomechanics), May 2017
-
-### Pennsylvania State University, University Park
-* Bachelor of Science in Kinesiology: Movement Science, May 2014    
+Experienced Engineer and Scientist specializing in bio-mechatronics and embedded systems with a decade of 
+expertise in developing robotic prostheses, biomechanical evaluation frameworks, and quality-assurance/
+hardware-in-the-loop. Proven track record in leading interdisciplinary teams, optimizing real-time software 
+frameworks, and conducting advanced human factors research. Currently focused on developing testing platforms 
+for automated testing of kitchen appliances at Sub-Zero Group.
 ___
 ## WORK EXPERIENCE
 
+### Senior Embedded Quality-Assurance Engineer, Fitchburg, WI
+
+__Sub-Zero Group, Inc., Aug 2024 – Present__
+
+* Developing and executing comprehensive test plans, test cases, and test scripts to validate mechanical and software functionality, 
+ performance, usability, and security for the R&D of Sub-Zero's kitchen appliances. 
+* Collaborating with cross-functional teams, including developers, designers, and product managers, 
+to understand hardware and software requirements and ensure proper test coverage.
+
 ### Research Scientist, Madison, WI
 
-__ Industrial and Systems Engineering and Mechanical Engineering Departments, Nov 2023 – Present __	
+__ Industrial and Systems Engineering and Mechanical Engineering Departments, Sept 2023 – Present __	
 
 *Biomechanical Evaluation of Fatigue on Performance from a Human-Factors Perspective*
 
@@ -58,6 +58,16 @@ __ Introduction to Biomechanics and Introduction to Robotics, Aug 2014 – May 2
 * Led biomechanics lab sessions and office hours, and trained new teaching assistants
 * Facilitated python-based ROS development and use of robotic arms and mobile mini-cars 
 ___
+## EDUCATION
+### University of Wisconsin-Madison, Madison, WI	
+* Ph.D. in Mechanical Engineering: Biomechatronics, Aug 2023   
+* Master of Science in Mechanical Engineering, Dec 2018
+* Master of Science in Kinesiology (Biomechanics), May 2017
+
+### Pennsylvania State University, University Park
+* Bachelor of Science in Kinesiology: Movement Science, May 2014    
+___
+
 ## SKILLS
 ### Software    	
 Python, C/C++, MATLAB, LabVIEW, Bash, Git, Linux, Robotic Operating System (ROS), Real-Time Operating System (RTOS), HTML, Signal Processing (FFT, Wavelet), SOLIDWORKS, Machine Learning
