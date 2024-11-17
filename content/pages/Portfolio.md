@@ -1,19 +1,19 @@
 title: Portfolio
 
-## <u>Sub-Zero Group</u>
+## <u>Electronics and Connectivity, Sub-Zero Group, Inc.</u>
 ### Senior Embedded Quality-Assurance Engineer
 *  Developing and executing comprehensive test plans, test cases, and test scripts to validate mechanical and software functionality, 
  performance, usability, and security for the R&D of Sub-Zero's kitchen appliances. 
 * Collaborating with cross-functional teams, including developers, designers, and product managers, 
 to understand hardware and software requirements and ensure proper test coverage.
 
-## <u>Industrial and Systems Engineering</u>
+## <u>Industrial and Systems Engineering, University of Wisconsin-Madison</u>
 ### Biomechanical Evaluation of the Effect of Fatigue on Performance, from a Human-Factors Perspective
 * Developed real-time software frameworks for synchronized data collection from multiple IoT sensors and devices. [Project documents](https://github.com/kieran-nichols/Lab_Stream_Layer_Kieran)
 * Established a research plan for Human-Robot Interaction investigating coadaptation for object transportation.
 * Collaborated with the Mechanical Engineering Department to develop prosthetic controller frameworks.
 
-## <u>Mechanical Engineering</u>
+## <u>Mechanical Engineering, University of Wisconsin-Madison</u>
 ### Two Axis Adaptable Ankle (TADA)
 * *Prosthetic ankle that modulates 2D ankle angle using brushless DC motors with motion and load sensors*
 * [Project description](https://github.com/kieran-nichols/catkin_ws_tadaros/tree/8d523b213062f5cb3155ff94542c0f2d29e2fa5c), [3D Interative Graphic](https://kieran-nichols.github.io/VSF_Main_Assembly.html)
@@ -35,7 +35,7 @@ to understand hardware and software requirements and ensure proper test coverage
 [first](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/GaitModelManuscript_JBME.pdf), 
 [sceond](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/mcgeehan-et-al-2022-a-simulation-based-analysis-of-the-effects-of-variable-prosthesis-stiffness-on-interface-dynamics.pdf), 
 [third](https://github.com/kieran-nichols/kieran-nichols.github.io/blob/main/content/docs/bio_143_07_074503.pdf)
-## <u>Kinesiology</u>
+## <u>Kinesiology, University of Wisconsin-Madison</u>
 * Built force plate for detecting small changes in foot-ground forces in human standing: [patent](https://patentimages.storage.googleapis.com/00/2c/cb/07a8d3c419e81c/US20180132777A1.pdf)
 * Designed frequency-based filtering method (LabVIEW) to characterize foot force control: [journal manuscript](https://doi.org/10.1016/j.jbiomech.2018.11.039)
 * Work done in [Neuromuscular Coordination Biomechanics Lab (UWNCL)](https://ncl.labs.wisc.edu/)
